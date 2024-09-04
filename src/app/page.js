@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       {/* Background 3D Scene */}
-      <ThreeScene />
+      {/* <ThreeScene /> */}
 
       {/* Header */}
       <Header />
@@ -36,8 +36,9 @@ export default function Home() {
 
         {/* Projects Section */}
         <Projects />
-        <Testimonials/>
         <Skills/>
+        <Testimonials/>
+        
         <Contact/>
         <Footer/>
       </main>
