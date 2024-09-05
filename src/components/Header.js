@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black text-white fixed top-4 left-1/2 transform -translate-x-1/2 w-11/12 md:w-10/12 lg:w-8/12 rounded-full z-10 shadow-lg">
+    <header className="bg-black text-white fixed top-4 left-1/2 transform -translate-x-1/2 w-11/12 md:w-10/12 lg:w-8/12 rounded-full z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
