@@ -22,22 +22,22 @@ const Header = () => {
             <nav>
               <ul className="flex space-x-8 text-lg">
                 <li>
-                  <Link href="#home" className="hover:text-gray-400">
+                  <Link href="/" className="hover:text-gray-400">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="#about" className="hover:text-gray-400">
+                  <Link href="/pages/about" className="hover:text-gray-400">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="#projects" className="hover:text-gray-400">
+                  <Link href="/pages/projects" className="hover:text-gray-400">
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link href="#contact" className="hover:text-gray-400">
+                  <Link href="/pages/contact" className="hover:text-gray-400">
                     Contact
                   </Link>
                 </li>
@@ -45,7 +45,7 @@ const Header = () => {
             </nav>
           </div>
           <div className="hidden md:block">
-            <Link href="#contact" className="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md text-white font-semibold">
+            <Link href="/pages/contact" className="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md text-white font-semibold">
               Get in Touch
             </Link>
           </div>

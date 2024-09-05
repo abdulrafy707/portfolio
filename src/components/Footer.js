@@ -18,16 +18,16 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <div className="flex space-x-8 mb-6 md:mb-0">
-            <a href="#home" className="text-sm hover:text-blue-500">Home</a>
-            <a href="#about" className="text-sm hover:text-blue-500">About</a>
-            <a href="#projects" className="text-sm hover:text-blue-500">Projects</a>
-            <a href="#contact" className="text-sm hover:text-blue-500">Contact</a>
+            <a href="/" className="text-sm hover:text-blue-500">Home</a>
+            <a href="/pages/about" className="text-sm hover:text-blue-500">About</a>
+            <a href="/pages/projects" className="text-sm hover:text-blue-500">Projects</a>
+            <a href="/pages/contact" className="text-sm hover:text-blue-500">Contact</a>
           </div>
 
           {/* Social Media Links */}
           <div className="flex space-x-6">
             <motion.a
-              href="https://github.com"
+              href="https://github.com/abdulrafy707"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -37,7 +37,7 @@ const Footer = () => {
               <FaGithub className="text-2xl" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/feed/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -57,7 +57,7 @@ const Footer = () => {
               <FaTwitter className="text-2xl" />
             </motion.a>
             <motion.a
-              href="mailto:email@example.com"
+              href="mrafybasra2020@gmail.com"
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.3 }}
               className="text-white hover:text-blue-500"

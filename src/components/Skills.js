@@ -29,8 +29,8 @@ const Skills = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <skill.icon className="text-6xl text-gray-800 mx-auto mb-4" />
-              <h3 className="text-xl text-black font-semibold mb-2">{skill.name}</h3>
+              <skill.icon className="text-6xl text-white mx-auto mb-4" />
+              <h3 className="text-xl text-white font-semibold mb-2">{skill.name}</h3>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
                 <div
                   className="bg-blue-600 h-2.5 rounded-full"
