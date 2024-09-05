@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import AboutMe from '@/components/AboutMe';
 import Projects from '@/components/Projects'; // Import the Projects component
-import ThreeScene from '../components/ThreeScene';
+import ThreeScene from '@/components/ThreeScene';
 import '../../globals.css';
 import Testimonials from '@/components/Testimonials';
 import Skills from '@/components/Skills';
